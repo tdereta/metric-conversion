@@ -3,6 +3,7 @@ body {
     text-align: center;
     font-family: 'Inter', sans-serif;
     height: 100%;
+    background-color: #f4f4f4;
 }
 
 h1 {
@@ -45,18 +46,24 @@ input[type=text] {
 
 .down {
     display: flex;
-    background-color: #f4f4f4;
     flex-direction: column;
-
+    margin-bottom: 20px;
 }
 
 .converted {
     background-color: #fff;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
 }
 
 .down > .converted > p:nth-child(2) {
     font-size: 14px;
     color: #353535;
+}
+
+#error {
+    color: #fff;
 }
